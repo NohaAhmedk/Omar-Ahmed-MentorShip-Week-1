@@ -185,9 +185,5 @@ Order #2 | Customer: Mona  | Drink: Hibiscus Tea - 12.0 LE | Status: Pending
 
 ---
 
-## Repository Link
-
-Make sure to include your GitHub repository link in the PDF submission:
-**\[GitHub Repo Link Here]**
 
 ---
