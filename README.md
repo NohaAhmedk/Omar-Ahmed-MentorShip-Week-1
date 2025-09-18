@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Smart Ahwa Manager (Dart Console App)
 
 ## Project Overview
@@ -63,3 +64,6 @@ OrderManager stores multiple Order objects.
 Each Order contains one Drink.
 ReportGenerator uses orders from OrderManager to produce sales insights.
 
+=======
+# smart_ahwa_manager
+>>>>>>> de90d64c0993edf86ebe59c883c59f71aa3bc51b
