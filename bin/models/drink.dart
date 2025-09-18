@@ -1,0 +1,8 @@
+abstract class Drink {
+  String get name;
+  double get price;
+
+  @override
+  String toString();
+}
+
