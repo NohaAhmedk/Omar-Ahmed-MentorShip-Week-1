@@ -148,25 +148,7 @@ Order added!
 Order #1 | Customer: Ahmed | Drink: Shai - 10.0 LE | Notes: Extra sugar | Status: Pending
 ```
 
----
 
-## How to Run
-
-1. Make sure you have **Dart SDK** installed: [https://dart.dev/get-dart](https://dart.dev/get-dart)
-2. Clone the repository:
-
-   ```bash
-   git clone <YOUR_REPO_LINK>
-   cd smart-ahwa-manager
-   ```
-3. Run the project:
-
-   ```bash
-   dart run bin/main.dart
-   ```
-4. Follow the on-screen menu to add orders, complete orders, or generate reports.
-
----
 
 ## Screenshots / Console Logs
 
@@ -177,13 +159,84 @@ Order #1 | Customer: Ahmed | Drink: Shai - 10.0 LE | Notes: Extra sugar | Status
    * Completed orders
    * Sales report
 * Example log:
+* Choose an option: 1
+Customer Name: noha
+Drink (Tea / TurkishCoffee / Hibiscus): tea
+Special Instructions (optional): extra sugar
+Order added!
 
-```
-Order #1 | Customer: Ahmed | Drink: Shai - 10.0 LE | Notes: Extra sugar | Status: Pending
-Order #2 | Customer: Mona  | Drink: Hibiscus Tea - 12.0 LE | Status: Pending
-```
+Choose an option: 1
+Customer Name: omar
+Drink (Tea / TurkishCoffee / Hibiscus): TurkishCoffee
+Special Instructions (optional): nothing
+Order added!
+
+Choose an option: 1
+Customer Name: sara
+Drink (Tea / TurkishCoffee / Hibiscus): TurkishCoffee
+Special Instructions (optional): nothing
+Order added!
+<img width="608" height="663" alt="Screenshot 2025-09-18 215809" src="https://github.com/user-attachments/assets/5f172d4c-495d-408f-bb11-fd2b236b1393" />
+
+
 
 ---
+
+### 2️⃣ Viewing Pending Orders
+
+
+Choose an option: 3
+
+=== Pending Orders ===
+Order #1 | Customer: noha | Drink: Shai - 10.0 LE | Notes: extra sugar | Status: Pending
+Order #2 | Customer: omar | Drink: Turkish Coffee - 15.0 LE | Notes: nothing | Status: Pending
+Order #3 | Customer: sara | Drink: Turkish Coffee - 15.0 LE | Notes: nothing | Status: Pending
+<img width="987" height="347" alt="Screenshot 2025-09-18 215855" src="https://github.com/user-attachments/assets/5bdd55d1-8d67-4ff3-a92b-5b0f4f688c36" />
+
+
+---
+
+### 3️⃣ Completing an Order
+
+
+Choose an option: 2
+Enter Order ID to complete: 3
+Order #3 marked as completed!
+
+Choose an option: 4
+
+=== Completed Orders ===
+Order #3 | Customer: sara | Drink: Turkish Coffee - 15.0 LE | Notes: nothing | Status: Completed
+
+
+
+---
+
+### 4️⃣ Viewing Pending Orders After Completion
+
+
+Choose an option: 3
+
+=== Pending Orders ===
+Order #1 | Customer: noha | Drink: Shai - 10.0 LE | Notes: extra sugar | Status: Pending
+Order #2 | Customer: omar | Drink: Turkish Coffee - 15.0 LE | Notes: nothing | Status: Pending
+<img width="970" height="603" alt="Screenshot 2025-09-18 215943" src="https://github.com/user-attachments/assets/c3c3f59d-24b0-4887-a896-d980bd5af938" />
+
+---
+
+### 5️⃣ Viewing Report
+
+
+Choose an option: 5
+
+=== Top Selling Drinks ===
+Shai: 1
+Turkish Coffee: 2
+Total Orders: 3
+  <img width="990" height="652" alt="Screenshot 2025-09-18 220049" src="https://github.com/user-attachments/assets/7d9893c2-2b12-4712-b178-e14657d3ab55" />
+
+
+```
 
 
 ---
